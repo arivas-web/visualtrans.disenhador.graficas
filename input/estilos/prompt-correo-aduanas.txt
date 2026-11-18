@@ -34,3 +34,9 @@ Hand-drawn marker sketch illustration, like a clean doodle made with felt-tip ma
 Scene, centered with wide empty margins on all sides: <ESCENA DE LA IDEA VISUAL>.
 At the top center, one hand-lettered marker title in navy blue, large and clean: "<RÓTULO>" (exact spelling). No other text, letters or numbers anywhere: documents and screens show only simple lines, no writing.
 Do not include: <QUE NO APAREZCA, en inglés>, any logo or brand mark. No photorealism, no 3D render, no gradients.
+
+--- FONDO EXACTO (revisión de Marc, 2026-11-18) ---
+La IA no clava el #e3f3fd: en el simulacro salió #D3E7F0 y dentro del correo se ve como un
+recuadro. Tras generar, SIEMPRE se corrige el fondo por píxeles a #e3f3fd exacto (sustituir los
+tonos cercanos al fondo con transición suave en los bordes) y se comprueba el color resultante.
+Ej.: 2026-11-18-correo-aduanas-factura-electronica-b-v2.jpg.
