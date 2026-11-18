@@ -1,46 +1,36 @@
-# Imagen de comunicado de aduanas (estilo "Paint") — acuerdo con Marc - AEAT (2026-11-18)
+# Imagen de correo de aduanas (comunicados de normativa nueva) · estilo «Paint»
 
-Para qué: imagen representativa de una NORMATIVA NUEVA en los correos de aduanas que monta
-Marc - AEAT (HubSpot, siempre borrador, el envío lo hace Adri a mano). Nunca en incidencias de
-sistemas ni en recordatorios de plazo.
+Acordado con Marc (agente AEAT) en el grupo «Correos aduanas.» de Marketing OS (2026-11).
 
-## Flujo
-1. Marc deja el briefing en el grupo «Correos aduanas.» de Marketing OS, siempre empezando por
-   @Esteban, con 4 líneas: Novedad · Idea visual · Rótulo (cerrado) · Que no aparezca.
-2. Esteban hace la imagen sin pedir nada más del hilo del correo y contesta en el mismo grupo con
-   el enlace público (raw.githubusercontent, se abre sin cuenta).
-3. Marc revisa lo jurídico y la ortografía de todo lo escrito, la sube al gestor de archivos de
-   HubSpot y usa esa URL en la vista previa. Un solo OK del usuario para texto + imagen.
-4. Cambios: todos juntos en un mismo mensaje a @Esteban. Una ronda con Marc y otra con el usuario.
-5. Si la idea visual admite una metáfora mejor a 520 px, se mandan dos opciones y elige Marc.
+Cuándo: solo comunicados con normativa nueva de verdad (no incidencias ni recordatorios de plazo).
+Flujo: Marc deja en el grupo un briefing que empieza por @Esteban con 4 líneas (Novedad, Idea
+visual, Rótulo cerrado, Que no aparezca). Se entrega en el mismo grupo con el enlace público
+(raw.githubusercontent). Marc revisa (fechas, siglas, obligatorio/recomendado, ortografía), la sube
+a HubSpot y la enseña en su vista previa; un solo OK del usuario para texto e imagen.
 
-## Medidas
-- 1040 × 520 px (2:1). Generar en 2:1 (o 16:9 → recorte). `channel: digital`.
-- JPG optimizado < 300 KB (objetivo 120-200 KB).
-- Dibujo centrado, ~40 px de margen libre en cada lado. Sin logo.
-- Colores de la plantilla: azul #162846, naranja #f15f27, fondo #e3f3fd (que se funda con el correo).
+Medidas: 1040 × 520 px (2:1; se ve a 520 px), JPG < 300 KB, unos 40 px de margen en cada lado,
+motivo centrado. Generar en 2:1, `channel: digital`.
+Colores (los de la plantilla de correo de aduanas, NO la paleta general de marca): azul #162846,
+naranja #f15f27, fondo #e3f3fd (que se funda con el correo). Sin logo.
 
-## Rótulo y texto
-- Máximo un rótulo de 3 a 5 palabras, el que pasa Marc letra por letra.
-- Si sale con una sola letra mal → se repite o va sin rótulo. La fecha y la obligación van
-  siempre en el texto del correo, nunca solo en la imagen.
-- «sin rótulo» = nada escrito en toda la imagen, tampoco de fondo (papeles, pantallas, carteles).
-- «Que no aparezca» se mete en el prompt como lista de elementos prohibidos (candados, sellos
-  rojos, «PROHIBIDO», calendarios con fechas, etc.).
+Rótulo: el que da Marc, letra por letra (máx. 3-5 palabras). Si sale con una letra mal, se repite
+o va sin rótulo. Con «sin rótulo», nada escrito en la imagen, ni de fondo (papeles y pantallas
+solo con rayas). La línea «Que no aparezca» se mete en el prompt como prohibiciones.
 
-## Estilo
-Aún no hay referencias del estilo Paint. En el primer comunicado se mandan dos pruebas sobre el
-mismo briefing; la elegida queda como estilo fijo y se escribe aquí su prompt:
-- A «MS Paint puro»: trazo tosco de ratón, relleno a cubo, colores planos sin degradados, algo de
-  humor, nada de aspecto de banco de imágenes.
-- B «boceto a rotulador»: trazo a mano de rotulador, colores planos, humor ligero.
-Si llegan imágenes de referencia, se ajusta este prompt a ellas.
+Estilo: PENDIENTE DE ELEGIR entre dos pruebas (simulacro factura electrónica, 2026-11-18):
+- A «MS Paint puro»: trazo tosco hecho con ratón, relleno a cubo, sin degradados.
+- B «boceto a rotulador»: contorno de rotulador, colores planos, algo de textura.
+Cuando el usuario elija, se deja aquí solo el prompt del ganador como plantilla fija y se usa la
+imagen elegida como referencia de estilo (`references`, `type: style`) en las siguientes.
 
---- PROMPT BASE (en inglés, se completa con la idea visual del briefing) ---
-Naive hand-drawn illustration in the style of {A: a crude MS Paint drawing made with a mouse,
-wobbly outlines, flat bucket-fill colors | B: a quick felt-tip marker sketch with flat colors},
-playful and slightly humorous, not stock-image looking. Subject: {idea visual}. Limited palette:
-dark navy #162846, orange #f15f27, plain light blue background #e3f3fd, white. Single centered
-composition with generous empty margins on all sides, nothing touching the edges. {Rótulo: the
-only text in the image is "<RÓTULO>" in large simple hand-lettered capitals | Sin rótulo: no
-text, letters, numbers or symbols anywhere in the image}. Do not include: {que no aparezca}.
+--- PROMPT A (MS Paint puro) ---
+Illustration in authentic MS Paint style: crude, wobbly mouse-drawn black outlines, flat bucket-fill colors with no gradients and no shading, slightly pixelated jagged edges, naive and humorous, like a funny drawing made in classic Microsoft Paint. Light background color #e3f3fd filling the whole canvas. Only three colors plus black and white: dark navy blue #162846, orange #f15f27 and the light blue background #e3f3fd.
+Scene, centered with wide empty margins on all sides: <ESCENA DE LA IDEA VISUAL>.
+At the top center, a single hand-drawn lettering in navy blue, large and clean: "<RÓTULO>" (exact spelling). No other text, letters or numbers anywhere: documents and screens only show plain lines, no writing.
+Do not include: <QUE NO APAREZCA, en inglés>, any logo or brand mark. No photorealism, no 3D, no gradients.
+
+--- PROMPT B (boceto a rotulador) ---
+Hand-drawn marker sketch illustration, like a clean doodle made with felt-tip markers: confident slightly irregular dark navy outlines, flat solid color fills with no gradients, a little paper-marker texture, friendly and lightly humorous editorial style. Light background color #e3f3fd filling the whole canvas. Limited palette: dark navy blue #162846, orange #f15f27, white and the light blue background #e3f3fd.
+Scene, centered with wide empty margins on all sides: <ESCENA DE LA IDEA VISUAL>.
+At the top center, one hand-lettered marker title in navy blue, large and clean: "<RÓTULO>" (exact spelling). No other text, letters or numbers anywhere: documents and screens show only simple lines, no writing.
+Do not include: <QUE NO APAREZCA, en inglés>, any logo or brand mark. No photorealism, no 3D render, no gradients.

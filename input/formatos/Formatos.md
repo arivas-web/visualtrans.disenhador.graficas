@@ -19,6 +19,7 @@ sin regenerar.
 | Post Facebook | 1080×1350 | 4:5 | `facebook_post` | |
 | Imagen de comunicado de aduanas (estilo Paint) | 1040×520 (se ve a 520×260), JPG < 300 KB | 2:1 (o 16:9 → recorte) | `digital` | Solo normativa nueva; ver `prompt-correo-aduanas.txt` |
 | Cabecera de correo / newsletter | 1200×400 (se ve a 600×200) | 21:9 o 2:1 → recorte 3:1 | `digital` | Hueco para el titular; ver `prompt-cabecera-email.txt` |
+| Imagen de correo de aduanas (normativa) | 1040×520 JPG < 300 KB (se ve a 520 px) | 2:1 | `digital` | Colores de la plantilla de aduanas; ver `prompt-correo-aduanas.txt` |
 | Imagen destacada de blog / OG | 1200×630 | 16:9 → recorte | `og_image` | Ver `prompt-blog.txt` |
 | Imagen dentro de un artículo | 1200×800 | 3:2 | `digital` | |
 | Banner web / landing (hero) | 1920×820 | 21:9 | `digital` | |

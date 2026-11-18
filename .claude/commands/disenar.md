@@ -30,6 +30,7 @@ Saca de la petición, por cada pieza:
   - Post o artículo de actualidad/normativa → `prompt-noticias.txt`.
   - Post de problema/solución, producto u opinión → `prompt-pains.txt`.
   - Cabecera de correo/newsletter → `prompt-cabecera-email.txt`.
+  - Imagen de comunicado de aduanas (briefing de Marc, normativa nueva) → `prompt-correo-aduanas.txt`.
   - Blog → `prompt-blog.txt` (él dice si va con método Noticias o Pains).
   - Todo lo demás → `prompt-libre.txt`.
   - Si el usuario pide otro look, `prompt-libre.txt` con sus notas.
