@@ -1,0 +1,46 @@
+# Imagen de comunicado de aduanas (estilo "Paint") — acuerdo con Marc - AEAT (2026-11-18)
+
+Para qué: imagen representativa de una NORMATIVA NUEVA en los correos de aduanas que monta
+Marc - AEAT (HubSpot, siempre borrador, el envío lo hace Adri a mano). Nunca en incidencias de
+sistemas ni en recordatorios de plazo.
+
+## Flujo
+1. Marc deja el briefing en el grupo «Correos aduanas.» de Marketing OS, siempre empezando por
+   @Esteban, con 4 líneas: Novedad · Idea visual · Rótulo (cerrado) · Que no aparezca.
+2. Esteban hace la imagen sin pedir nada más del hilo del correo y contesta en el mismo grupo con
+   el enlace público (raw.githubusercontent, se abre sin cuenta).
+3. Marc revisa lo jurídico y la ortografía de todo lo escrito, la sube al gestor de archivos de
+   HubSpot y usa esa URL en la vista previa. Un solo OK del usuario para texto + imagen.
+4. Cambios: todos juntos en un mismo mensaje a @Esteban. Una ronda con Marc y otra con el usuario.
+5. Si la idea visual admite una metáfora mejor a 520 px, se mandan dos opciones y elige Marc.
+
+## Medidas
+- 1040 × 520 px (2:1). Generar en 2:1 (o 16:9 → recorte). `channel: digital`.
+- JPG optimizado < 300 KB (objetivo 120-200 KB).
+- Dibujo centrado, ~40 px de margen libre en cada lado. Sin logo.
+- Colores de la plantilla: azul #162846, naranja #f15f27, fondo #e3f3fd (que se funda con el correo).
+
+## Rótulo y texto
+- Máximo un rótulo de 3 a 5 palabras, el que pasa Marc letra por letra.
+- Si sale con una sola letra mal → se repite o va sin rótulo. La fecha y la obligación van
+  siempre en el texto del correo, nunca solo en la imagen.
+- «sin rótulo» = nada escrito en toda la imagen, tampoco de fondo (papeles, pantallas, carteles).
+- «Que no aparezca» se mete en el prompt como lista de elementos prohibidos (candados, sellos
+  rojos, «PROHIBIDO», calendarios con fechas, etc.).
+
+## Estilo
+Aún no hay referencias del estilo Paint. En el primer comunicado se mandan dos pruebas sobre el
+mismo briefing; la elegida queda como estilo fijo y se escribe aquí su prompt:
+- A «MS Paint puro»: trazo tosco de ratón, relleno a cubo, colores planos sin degradados, algo de
+  humor, nada de aspecto de banco de imágenes.
+- B «boceto a rotulador»: trazo a mano de rotulador, colores planos, humor ligero.
+Si llegan imágenes de referencia, se ajusta este prompt a ellas.
+
+--- PROMPT BASE (en inglés, se completa con la idea visual del briefing) ---
+Naive hand-drawn illustration in the style of {A: a crude MS Paint drawing made with a mouse,
+wobbly outlines, flat bucket-fill colors | B: a quick felt-tip marker sketch with flat colors},
+playful and slightly humorous, not stock-image looking. Subject: {idea visual}. Limited palette:
+dark navy #162846, orange #f15f27, plain light blue background #e3f3fd, white. Single centered
+composition with generous empty margins on all sides, nothing touching the edges. {Rótulo: the
+only text in the image is "<RÓTULO>" in large simple hand-lettered capitals | Sin rótulo: no
+text, letters, numbers or symbols anywhere in the image}. Do not include: {que no aparezca}.

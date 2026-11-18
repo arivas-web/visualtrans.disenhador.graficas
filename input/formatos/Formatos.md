@@ -17,6 +17,7 @@ sin regenerar.
 | Story / Reel cover | 1080×1920 | 9:16 | `instagram_story` | Zona segura: 250 px arriba y abajo |
 | Post X | 1600×900 | 16:9 | `x_post` | |
 | Post Facebook | 1080×1350 | 4:5 | `facebook_post` | |
+| Imagen de comunicado de aduanas (estilo Paint) | 1040×520 (se ve a 520×260), JPG < 300 KB | 2:1 (o 16:9 → recorte) | `digital` | Solo normativa nueva; ver `prompt-correo-aduanas.txt` |
 | Cabecera de correo / newsletter | 1200×400 (se ve a 600×200) | 21:9 o 2:1 → recorte 3:1 | `digital` | Hueco para el titular; ver `prompt-cabecera-email.txt` |
 | Imagen destacada de blog / OG | 1200×630 | 16:9 → recorte | `og_image` | Ver `prompt-blog.txt` |
 | Imagen dentro de un artículo | 1200×800 | 3:2 | `digital` | |
