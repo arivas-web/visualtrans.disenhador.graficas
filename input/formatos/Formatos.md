@@ -28,3 +28,4 @@ sin regenerar.
 
 Si la pieza no está en la tabla, elige la proporción más cercana al tamaño que pida el usuario y
 apúntala aquí al terminar.
+| Tabla / cuadro para correo | 1200 px de ancho, alto libre (2x) | render HTML con la paleta de marca (texto exacto, sin IA) | `digital` | Códigos y referencias no se generan con IA: se componen |

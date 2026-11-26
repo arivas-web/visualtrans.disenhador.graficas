@@ -1,1 +1,2 @@
 fecha,id,tipo,canal,formato,estilo,tema,prompt,modelo,enlace_imagen,estado,detalle
+2026-11-26,tabla-codigos-soporte-1,tabla,correo,1200 px ancho (2400 px a 2x),render HTML (sin IA),Códigos de documento de soporte por régimen,texto exacto del cuadro compuesto en HTML con paleta de marca,playwright,https://raw.githubusercontent.com/arivas-web/visualtrans.dise-o.gr-ficas/claude/brave-johnson-1wb42r/output/imagenes/2026-11-26-tabla-codigos-documento-soporte.png,OK,
